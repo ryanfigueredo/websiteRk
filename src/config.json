@@ -1,0 +1,41 @@
+{
+    "webserver": {
+        "port": 3000
+    },
+
+    "mysql": {
+        "database": "projectatlantis",
+        "user": "root",
+        "port": 3306,
+        "host": "127.0.0.1",
+        "password": ""
+    },
+
+    "paymentGateways": {
+        "itauAPi": {
+            "client_id": "9e8436c5-61cc-4759-adcb-53c4436f90bf",
+            "client_secret": "b7269886-0ce3-4197-9658-99cbab8828d1"
+        },
+
+        "stripeAPi": {
+            "key": "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"
+        }
+    },
+
+    "productList": [
+        { "id": 1, "price": 58.0, "stripeProductId": "" },
+        { "id": 2, "price": 115.0, "stripeProductId": "" }
+    ],
+
+    "smptServer": {
+        "host": "smtpout.secureserver.net",
+        "port": 465,
+        "service": "Godaddy",
+        "secureConnection": true,
+
+        "auth": {
+            "user": "noreply@rkseller.com.br",
+            "pass": ""
+        }
+    }
+}

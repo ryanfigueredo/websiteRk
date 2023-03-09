@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button{
+    font-family: 'Inter', 'sans-serif';
+
+    background: #320125;
+    color: white;
+}
+
+header {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin:  1.7rem  5.2rem 2.6rem 5.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LogoIcon{
+    height: 65px;
+}
+
+.languageIcon {
+    height: 40px;
+}
+
+li {
+    list-style-type: none;    
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#payPix {
+    background-color: #A6067C;
+    height: 48px;
+
+    font-size: 16px;
+    justify-content: center;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.mainSpan {
+    font-weight: 900;
+}
+
+.coin {
+    height: 18px;
+}
+
+iframe {
+    text-decoration: none;
+    height: 480px;
+    width: 100%;
+}
+
+button {
+    font-weight: 700;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 15rem;
+    height: 35px;
+    border: none;
+    align-items: center;
+    background: #41303C;
+
+}
+
+button:hover{
+    background: #251c23;
+}
+
+.buySup{
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: #41303C;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+}
+
+.line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+hr {
+    border-color: #FF00F9;
+}
+
+.resourcesLine {
+    margin-bottom: 3rem;
+}
+
+main {
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+    text-align: left;
+}
+
+main h1 {
+    font-weight: 400;
+    font-size: 92px;
+}
+
+.mainH1 {
+    font-weight: 700;
+}
+
+.buttonBuy{
+    margin-bottom: 1.2rem;
+
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 23px;
+
+    font-size: 18px;
+    height: 45px;
+    background: #A6067C;
+    border-radius: 10px 0px 0px 0px;
+    color: white;
+}
+
+.buttonPlans {
+    
+}
+
+.buttonDc {
+    margin-bottom: 4rem;
+
+    display: flex;
+    height: 45px;
+    width: 230px;
+    font-size: 18px;
+    justify-content: space-around;
+
+    background: #A6067C;
+    border-radius: 0px 0px 10px;
+    color: white;
+}
+
+
+.resources {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.resourcesTable{
+    display: flex;
+    gap: 5.4rem;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.resourcesSpan {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+li {
+    text-align: left;
+    font-size: 14px;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+    align-items: center;
+    
+    margin-bottom: 5rem;
+}
+
+.one {
+    border-radius: 0px 0px 0px 35px;
+    background: #383838;
+    max-height: 450px;
+    max-width: 450px;
+    width: 450px;
+    height: 450px;
+}
+
+.mid {
+    background: #383838;
+    height: 450px;
+    width: 450px;
+}
+
+.end {
+    width: 450px;
+    height: 450px;
+    background: #383838;
+    border-radius: 0px 35px 0px 0px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+
+#mainPlan {
+    text-align: center;
+}
+
+.class {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.month {
+    height: 450px;
+    width: 300px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+    background: #141214;
+    border: 1px solid #FF00F9;
+    border-radius: 35px 0px 0px 0px ;
+
+    margin-bottom: 5rem;
+}
+
+.week {
+    height: 450px;
+    width: 300px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+    background: #141214;
+    border: 1px solid #FF00F9;
+    border-radius: 0px 35px 0px 0px;
+
+    margin-bottom: 5rem;
+}
+
+.monthLine {
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:  20px 0  0 20px;
+    border-color: white;
+    width: 250px;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 39px;
+
+    color: #A6067C;
+
+}
+
+.plansSpan {
+    font-size: 96px;
+    font-weight: 900;
+}
+
+a {
+    font-style: none;
+    color: white;
+}
+
+a:hover {
+    color: #64054b;
+}
+
+#plans { 
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    margin-bottom: 2rem;
+
+}
+
+.boxQuestions {
+    margin-bottom: 2rem;
+    background-color: #141214;
+    padding: 2rem;
+    
+
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h5 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #490136;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.footer {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textFooter {
+    font-size: 1.2rem;
+}
+
+span {
+    font-weight: 400;
+}
+
+
+.media {
+
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3rem;
+    opacity: 0.6;
+}
+
+.iconMedia:hover {
+    opacity: 0.2;
+}
+
+.terms {
+    padding: 10rem;
+}

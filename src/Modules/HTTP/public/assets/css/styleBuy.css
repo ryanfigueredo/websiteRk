@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button{
+    font-family: 'Inter', 'sans-serif';
+
+    background: #320125;
+    color: white;
+}
+
+header {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    gap: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentForm{
+
+    width: 390px;
+    height: 180px;
+
+    background: #6b024f;
+}
+
+.resumeBuy {
+    width: 390px;
+    height: 180px;
+
+    background: #6b024f;
+}
+
+.title {
+    padding: 15px;
+    
+    height: 70px;
+    background: #25011c;
+}
+
+h1 {
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAA8A8;
+}
+
+.optionPay {
+    padding: 15px;
+    
+}
+
+ul {
+    margin-bottom: 0.2rem;
+}
+
+li {
+    font-weight: 700;
+    list-style-type: none;  
+    
+    
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+input, label {
+    margin-right: 0.8rem;
+
+    list-style: none;
+}
+
+input:after {
+    content: "";
+    clear: both;
+  }
+
+.sub {
+    font-size: 8px;
+    color: #AAA8A8;
+    font-weight: 400;
+}
+
+.valueSelect{
+    margin-top: 0.8rem;
+    font-size: 22px;
+
+    color: #25011c;
+}
+
+.titlePlan {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.planSelect {
+    margin-bottom: 10px;
+}
+
+li p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.formName {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    align-items: center;
+    justify-items: center;
+
+    
+   
+
+    list-style: none;
+}
+
+label {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.blocForm {
+    
+    background-color: #6b024f;
+    height: 400px;
+}
+
+.formMain {
+
+
+    display: flex;
+    justify-content: center;
+    
+    padding: 15px;
+
+    
+}
+
+#email, #nome, #cpf {
+    background-color: #25011c;
+    border: none;
+    height: 40px;
+    width: 400px;
+    
+    justify-items: flex-start;
+    display: flex;
+    align-items: end;
+
+}
+
+#inputStyle {
+    list-style: none;
+    border: none;
+
+    background-color: #25011c;
+    height: 40px;
+    width: 90px;
+
+
+    color: white;
+    font-size: 14px;
+
+    text-transform: uppercase;
+    font-weight: 400;
+
+    border: #c50993 1px solid;
+    border-radius:  12px 12px 12px 12px;
+}
+
+#inputStyle:hover {
+    background-color: #700555;
+    border: 1px solid white;
+    font-weight: 700;
+    height: 50px;
+    width: 100px;
+}
+
+body {
+    margin-bottom: 5rem;
+}
+
+.radio {
+    border: none;
+    background-color: #6b024f;
+    
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#selectorButton {
+    background-color: #310124;
+    width: 17px;
+    height: 17px;
+    border: none;
+    border-radius: 10px;
+}
+
+#selectorButton:hover {
+    background-color: #91076c;
+}

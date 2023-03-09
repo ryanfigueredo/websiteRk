@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK | SKRIPT.GG &reg;</title>
+
+    <meta name="description"
+        content="Site de redirecionamento aos discords de vendas Skript.gg (GTAV). Adquira já o melhor do mercado.">
+    <meta name="author" content="@ryanfig_">
+
+    <link rel="stylesheet" href="/assets/css/styleBuy.css">
+    <link rel="shortcut icon" href="./assets/svg/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/svg/whiteLogo.svg" alt="">
+    </header>
+
+    <div class="formName">
+        
+        <div class="blocForm">
+            <div class="title">
+                <h1>INFORME SEUS DADOS</h1>
+                <p>Utilize informações verdadeiras para gerar seu pagamento</p>
+            </div>
+            <div class="formMain">
+                <form method='POST' action='recebe-dados.php'>
+                <label for="nome" placeholder="Escreva o seu nome">Nome</label> 
+                <input type='text' id='nome' name='nome' required><br>
+
+                <label for="email">Email</label> 
+                <input type='email' id='email' name='email' required placeholder="   Receberá a chave para pagamento, utilize email válido!"><br>
+                
+                <label for="cpf">CPF</label>
+                <input type="tel" id="cpf" required pattern="000.000.000-00" required pattern="00000000000" placeholder="   000.000.000-00"><br>
+
+                <input id="inputStyle" type="reset" value="Reset">
+                <input id="inputStyle" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <main>
+        
+        
+
+        <div class="PaymentForm">
+            <div class="title">
+                <h1>FORMA DE PAGAMENTO</h1>
+                <p>Escolha sua forma de pagamento</p>
+            </div>
+
+            <div class="optionPay">
+                <form action="" method="post">
+                    <ul>
+                        <li><button class="radio"><input type="submit"  id="selectorButton" value="" >PIX</button>
+                            <p>metódo de pagamento para Brasileiros</p></li>
+                        
+                        <li><button class="radio">
+                            <input type="submit" id="selectorButton" value="">Cartão de Crédito
+                            </button>
+                            <p>metódo de pagamento para residentes fora do Brasil</p></li>
+                    </ul>
+                </form>
+               
+
+                
+
+            </div>
+
+        </div>
+        
+    </main>
+    <div class="resume">
+        <div class="resumeBuy">
+            <div class="title">
+                <h1>RESUMO DA COMPRA</h1>
+            </div>
+    
+            <div class="optionPay">
+                <ul class="planSelect">
+                    <li class="titlePlan">Plano Mensal</li>
+                    <li class="sub">*Cobrado R$110,00</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li class="valueSelect">TOTAL AGORA R$110,00</li>
+                </ul>
+    
+            </div>
+        </div>
+    </div>
+    <script src="../public/assets/js/script.js"></script>
+</body>
+
+</html>
